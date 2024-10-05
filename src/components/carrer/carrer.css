@@ -1,0 +1,32 @@
+.ct{
+    text-align: center;
+    
+}
+.p1{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(67, 67, 67);
+    margin-bottom: 10px;
+}
+.ci>img{
+    height: 40px;
+    filter: grayscale(100%);
+}
+img:hover{
+    filter: grayscale(0);
+}
+.ci{
+    height: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   margin: 20px 20%;
+   flex-wrap: wrap;
+   
+}
+
+@media (max-width:450px) and (max-width:1080px) {
+    .pla{
+        height: 80vh;
+    }
+}

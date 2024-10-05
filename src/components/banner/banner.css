@@ -1,0 +1,128 @@
+
+.logo{
+    height: 100px;
+    padding: 20px 0;
+    display: flex;
+}
+.logo>img{
+    height: 70px;
+}
+.logo>h2{
+    font-size: 40px;
+    margin: 0;
+    color: rgb(176, 10, 10);
+}
+.logo>h2>span{
+    font-size: 70%;
+    color: black;
+}
+.banner-content{
+    margin-top: 2rem;
+    text-align: center;
+
+}
+.banner-content>h3{
+    font-size: 40px;
+}
+.banner-content>h1{
+    font-size: 100px;
+    margin:10px;
+}
+.banner-buttons{
+    text-align: center;
+
+}
+.btn1{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: rgb(93, 93, 176);
+}
+.btn2{
+    padding: 10px;
+    margin: 5px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    border: 1px red solid;
+    box-shadow: 0px 10px 20px 0px rgb(221, 130, 130);
+    font-weight: 700;
+
+}
+.learn {
+    animation: learnAnimation 2s ease-in-out infinite;
+}
+
+@keyframes learnAnimation {
+    0% {
+        color: rgb(0, 0, 0); 
+    }
+    33% {
+        color: orange;  
+    }
+    100% {
+        color: black;  
+    }
+}
+
+.Build {
+    animation: buildAnimation 2s ease-out infinite;
+}
+
+@keyframes buildAnimation {
+    0% {
+        color: black; 
+    }
+    33% {
+        color: black; 
+    }
+    66% {
+        color: green; }
+    100% {
+        color: black;  /* Turn black by the end of the cycle */
+    }
+}
+
+.get {
+    animation: getAnimation 2s ease-out infinite;
+}
+
+@keyframes getAnimation {
+    0% {
+        color: black;  /* Start black while 'Learn' and 'Build' are active */
+    }
+    66% {
+        color: black;  /* Stay black until 'Build' turns black */
+    }
+    100% {
+        color: blue;   /* Start blue after 'Build' turns black, remain until cycle ends */
+    }
+}
+
+
+@media(max-width:950px) {
+
+    .banner-content>h3{
+        font-size: 30px;
+    }
+    .banner-content>h1{
+        font-size: 80px;
+        margin:10px;
+    }
+}
+@media (max-width:450px) {
+
+    .banner-content>h3{
+        font-size: 20px;
+    }
+    .banner-content>h1{
+        font-size: 30px;
+        margin:10px;
+    }
+}
