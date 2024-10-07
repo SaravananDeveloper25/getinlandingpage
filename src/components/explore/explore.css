@@ -89,6 +89,21 @@ h5{
     width: 1px;
     border-left: 1px dashed #afafaf
 }
+.job-row {
+    position: relative; 
+  }
+.job-row::after{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    border-left: 1px dashed #afafaf
+}
+.build-img>img{
+    width: 400px;
+}
 .build-content{
     position: relative;
     padding-top: 5rem;

@@ -2,7 +2,7 @@ import React from 'react'
 import './explore.css'
 import Redbutton from '../buttons/redbutton'
 import { Container,Row,Col } from 'react-bootstrap'
-
+import { images } from '../../config/images'
 function Explore() {
   const courses = [
     {
@@ -135,12 +135,14 @@ function Explore() {
             <Row className='build-row'>
               
               <Col md={6}>
-                <div className='build-img'></div>
+                <div className='build-img'>
+                  <img src={images.PP} alt="" />
+                </div>
               </Col>
               <Col md={6}>
               <div className='build-content'>
                 <div className="icon"></div>
-                <h4>CRM</h4>
+                <h4>Placement Portal</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel numquam aut. Autem at ullam dolore quidem praesentium aliquam molestias magnam. Eum sed optio minus, commodi porro possimus voluptates aliquam.</p>
                 <div className='build-button'>
                   <Redbutton />
@@ -152,7 +154,9 @@ function Explore() {
             <Row className='build-row'>
               
               <Col md={6}>
-                <div className='build-img'></div>
+                <div className='build-img'>
+                  <img src={images.CRM} alt="" />
+                </div>
               </Col>
               <Col md={6}>
               <div className='build-content'>
@@ -168,6 +172,84 @@ function Explore() {
             </Row>
           </Container>
       </div>
+      <section></section>
+      <div className='S'>
+        <div className='sline Slinev'></div>
+        <div className='num'>3</div>
+        <p className='voilet'>Certificate</p>
+        <p>Internships and Course certifications for Enhanced Skill Validation.</p>
+
+      </div>
+      {/* <div className='certificate'>
+        <Container>
+          <Row>
+            <Col></Col>
+            <Col></Col>
+          </Row>
+        </Container>
+      </div> */}
+      <section></section>
+      <div className='S'>
+        <div className='sline Slinev'></div>
+        <div className='num'>4</div>
+        <p className='voilet'>Get Job</p>
+        <p>Our focus on job-readiness Github Profile, Linkedin Profile, Resume Prep and Help Apply</p>
+
+      </div>
+      <div className="getjob">
+        <Container>
+        <Row >
+          <Col>
+            <Row className='job-row'>
+            <Col>
+              <div className='build-content'>
+                <div className="icon"></div>
+                <h4>LinkedIn Profile
+                </h4>
+                <p>Assistance in crafting a compelling LinkedIn profile for networking and visibility among recruiters.</p>
+              </div>
+              </Col>
+            </Row>
+            <Row className='job-row'>
+            <Col>
+              <div className='build-content'>
+                <div className="icon"></div>
+                <h4>GitHub Profile
+                </h4>
+                <p>Guidance on creating and maintaining a professional GitHub profile to showcase technical projects and coding prowess.</p>
+              </div>
+              </Col>
+            </Row>
+            <Row className='job-row'>
+            <Col>
+              <div className='build-content'>
+                <div className="icon"></div>
+                <h4>Resume Preparation
+                </h4>
+                <p>Expert advice on resume writing to effectively highlight skills, experience, and achievements.</p>
+
+              </div>
+              </Col>
+            </Row>
+            <Row className='job-row'>
+            <Col>
+              <div className='build-content'>
+                <div className="icon"></div>
+                <h4>Help in Applying
+                </h4>
+                <p>Support in identifying suitable job opportunities and navigating the application process.  </p>
+              </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col>
+          <img src={images.linking} alt="" />
+          </Col>
+        </Row>
+        </Container>
+        
+      </div>
+      
     </div>
   )
 }

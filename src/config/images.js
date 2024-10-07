@@ -9,7 +9,9 @@ import hcl from '../images/HCL-Logo.png'
 import inf from  '../images/Infosys-logo.png'
 import lti from '../images/LTI-logo.png'
 import sam from '../images/Samsung-logo.png'
-
+import linking from '../images/linking.jpg'
+import PP from '../images/placement-portal.png'
+import CRM from '../images/CRM.png'
 
 export const images = {
     logo,
@@ -23,6 +25,9 @@ export const images = {
     hcl,
     inf,
     lti,
+    linking,
+    PP,
+    CRM
     
 
 }
