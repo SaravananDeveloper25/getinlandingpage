@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/getinlandingpage/static/css/main.785ac173.css",
-    "main.js": "/getinlandingpage/static/js/main.ce272aa1.js",
+    "main.css": "/getinlandingpage/static/css/main.5b31a96b.css",
+    "main.js": "/getinlandingpage/static/js/main.cc8dc467.js",
+    "static/media/CRM.png": "/getinlandingpage/static/media/CRM.8336024b86582dbe9a6c.png",
     "static/media/ZOHO-logo.png": "/getinlandingpage/static/media/ZOHO-logo.4db72b1e0337f3fcee4d.png",
+    "static/media/linking.jpg": "/getinlandingpage/static/media/linking.ef75baf9cfe7a34657a4.jpg",
+    "static/media/placement-portal.png": "/getinlandingpage/static/media/placement-portal.5802ae557e05be942090.png",
     "static/media/Infosys-logo.png": "/getinlandingpage/static/media/Infosys-logo.5835cb7c81c0160b2115.png",
     "static/media/Capgimini-Logo.png": "/getinlandingpage/static/media/Capgimini-Logo.9e0b7108fb5f6d1ce47a.png",
     "static/media/Samsung-logo.png": "/getinlandingpage/static/media/Samsung-logo.8b05f13569b4a0768fe6.png",
@@ -10,11 +13,11 @@
     "static/media/Deloitte-logo.png": "/getinlandingpage/static/media/Deloitte-logo.b62a08133ed78c23a1c4.png",
     "static/media/HCL-Logo.png": "/getinlandingpage/static/media/HCL-Logo.7d68335badecd79b8ca0.png",
     "index.html": "/getinlandingpage/index.html",
-    "main.785ac173.css.map": "/getinlandingpage/static/css/main.785ac173.css.map",
-    "main.ce272aa1.js.map": "/getinlandingpage/static/js/main.ce272aa1.js.map"
+    "main.5b31a96b.css.map": "/getinlandingpage/static/css/main.5b31a96b.css.map",
+    "main.cc8dc467.js.map": "/getinlandingpage/static/js/main.cc8dc467.js.map"
   },
   "entrypoints": [
-    "static/css/main.785ac173.css",
-    "static/js/main.ce272aa1.js"
+    "static/css/main.5b31a96b.css",
+    "static/js/main.cc8dc467.js"
   ]
 }
