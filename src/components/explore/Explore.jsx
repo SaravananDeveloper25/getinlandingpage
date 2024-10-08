@@ -199,7 +199,7 @@ function Explore() {
       <div className="getjob">
         <Container>
         <Row >
-          <Col>
+          <Col md={6}>
             <Row className='job-row'>
             <Col>
               <div className='build-content'>
@@ -242,8 +242,8 @@ function Explore() {
               </Col>
             </Row>
           </Col>
-          <Col>
-          <img src={images.linking} alt="" />
+          <Col md={6}>
+          <img src={images.linking} alt="" width="100%"/>
           </Col>
         </Row>
         </Container>

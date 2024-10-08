@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.trainning{
+    text-align: center;
+    margin-top: 5rem;
+}
+.trainning>h4{
+    font-weight: 800;
+    font-size: 30px;
+}
+.placed-student{
+    margin-top: 5rem;
+}
+.std-box{
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px gray;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+.std-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    transform: translate(-50%);
+}
+.std-content{
+    padding-top: 30px;
+}
+.std-content>h5{
+    font-weight: 700;
+}
+.batch{
+    box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.534);
+    padding: 20px;
+    text-align: left;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+.batch h5{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+.timing-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tbox{
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.498);
+}
+.boxx{
+    margin-top: 1rem;
+}
+.batch-black{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 6.3rem 10px 2rem 10px ;
+    box-shadow: none;
+}
+.why{
+    border-right: 1px solid gray;
+    margin-top: 2rem;
+}
+.why>h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.why>p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}

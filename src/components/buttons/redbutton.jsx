@@ -11,5 +11,9 @@ function redbutton() {
         </div>
     )
 }
+export function Redbtn(){
+    return <button className='btn2'> Get free course Demo</button>
+
+}
 
 export default redbutton

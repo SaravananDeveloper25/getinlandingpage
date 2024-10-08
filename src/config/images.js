@@ -12,6 +12,8 @@ import sam from '../images/Samsung-logo.png'
 import linking from '../images/linking.jpg'
 import PP from '../images/placement-portal.png'
 import CRM from '../images/CRM.png'
+import dummy1 from '../images/women logo.png'
+import dummy2 from '../images/man logo.png'
 
 export const images = {
     logo,
@@ -27,7 +29,9 @@ export const images = {
     lti,
     linking,
     PP,
-    CRM
+    CRM,
+    dummy1,
+    dummy2
     
 
 }
