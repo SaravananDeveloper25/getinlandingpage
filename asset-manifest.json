@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/getinlandingpage/static/css/main.c2c9bb06.css",
-    "main.js": "/getinlandingpage/static/js/main.4294d670.js",
+    "main.css": "/getinlandingpage/static/css/main.b7e3a298.css",
+    "main.js": "/getinlandingpage/static/js/main.7427476f.js",
     "static/media/ZOHO-logo.png": "/getinlandingpage/static/media/ZOHO-logo.4db72b1e0337f3fcee4d.png",
     "static/media/CRM.png": "/getinlandingpage/static/media/CRM.e99af28e53fb309fdbcd.png",
     "static/media/linking.jpg": "/getinlandingpage/static/media/linking.ef75baf9cfe7a34657a4.jpg",
@@ -15,11 +15,11 @@
     "static/media/Deloitte-logo.png": "/getinlandingpage/static/media/Deloitte-logo.b62a08133ed78c23a1c4.png",
     "static/media/HCL-Logo.png": "/getinlandingpage/static/media/HCL-Logo.7d68335badecd79b8ca0.png",
     "index.html": "/getinlandingpage/index.html",
-    "main.c2c9bb06.css.map": "/getinlandingpage/static/css/main.c2c9bb06.css.map",
-    "main.4294d670.js.map": "/getinlandingpage/static/js/main.4294d670.js.map"
+    "main.b7e3a298.css.map": "/getinlandingpage/static/css/main.b7e3a298.css.map",
+    "main.7427476f.js.map": "/getinlandingpage/static/js/main.7427476f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2c9bb06.css",
-    "static/js/main.4294d670.js"
+    "static/css/main.b7e3a298.css",
+    "static/js/main.7427476f.js"
   ]
 }
