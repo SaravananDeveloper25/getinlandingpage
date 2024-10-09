@@ -14,10 +14,10 @@ function CarrerP() {
                 <img src={images.de} alt="" />
                 <img src={images.dell} alt="" />
                 <img src={images.dxc} alt="" />
-                <img src={images.hcl} alt="" />
-                <img src={images.inf} alt="" />
-                <img src={images.lti} alt="" />
-                <img src={images.sam} alt="" />
+                <img src={images.hcl} alt="" className='hide'/>
+                <img src={images.inf} alt="" className='hide'/>
+                <img src={images.lti} className='hide' alt="" />
+                <img src={images.sam} className='hide' alt="" />
  
             </div>
  
