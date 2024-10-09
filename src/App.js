@@ -1,6 +1,7 @@
 import Hbanner from './components/banner/Hbanner';
 import CarrerP from './components/carrer/CarrerP';
 import Explore from './components/explore/Explore'
+import Footer from './components/footer/Footer';
 import Train from './components/train/train';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +18,8 @@ function App() {
       <Explore/>
       <section></section>
       <Train />
+      <section></section>
+      <Footer />
     </div>
   );
 }

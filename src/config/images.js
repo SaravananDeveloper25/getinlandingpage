@@ -14,6 +14,7 @@ import PP from '../images/placement-portal.png'
 import CRM from '../images/CRM.png'
 import dummy1 from '../images/women logo.png'
 import dummy2 from '../images/man logo.png'
+import dummy3 from '../images/dummy.png'
 
 export const images = {
     logo,
@@ -31,7 +32,8 @@ export const images = {
     PP,
     CRM,
     dummy1,
-    dummy2
+    dummy2,
+    dummy3
     
 
 }

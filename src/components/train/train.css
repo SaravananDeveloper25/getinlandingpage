@@ -80,3 +80,20 @@
     font-size: 1.2rem;
     font-weight: 700;
 }
+.location{
+    box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.422);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.location img{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.location h4{
+    margin:2rem 0;
+    color: blue;
+}
+.branch-c{
+    padding: 20px;
+}

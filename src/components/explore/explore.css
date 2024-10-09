@@ -60,6 +60,13 @@ h5{
     gap: 50px;
     
 }
+.cdeatils-icon{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 .cbtn{
     padding: 10px 20px;
     margin-top: 20px;

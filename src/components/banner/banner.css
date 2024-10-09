@@ -3,6 +3,8 @@
     height: 100px;
     padding: 20px 0;
     display: flex;
+    align-items: center;
+
 }
 .logo>img{
     height: 70px;
@@ -11,6 +13,7 @@
     font-size: 40px;
     margin: 0;
     color: rgb(176, 10, 10);
+    font-weight: 700;
 }
 .logo>h2>span{
     font-size: 70%;
@@ -57,6 +60,7 @@
 }
 .learn {
     animation: learnAnimation 2s ease-in-out infinite;
+    font-weight: 700;
 }
 
 @keyframes learnAnimation {
@@ -73,6 +77,8 @@
 
 .Build {
     animation: buildAnimation 2s ease-out infinite;
+    font-weight: 700;
+
 }
 
 @keyframes buildAnimation {
@@ -91,6 +97,7 @@
 
 .get {
     animation: getAnimation 2s ease-out infinite;
+    font-weight: 700;
 }
 
 @keyframes getAnimation {
