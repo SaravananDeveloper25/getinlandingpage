@@ -1,7 +1,7 @@
 import React from 'react'
 import './explore.css'
 import Redbutton from '../buttons/redbutton'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { images } from '../../config/images'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CodeIcon from '@mui/icons-material/Code';
@@ -90,6 +90,7 @@ function Explore() {
     <div>
 
       <h5>Explore the Digital Lync way</h5>
+      <Container>
       <div className='S'>
         <div className='sline Slinev'></div>
         <div className='num'>1</div>
@@ -100,6 +101,7 @@ function Explore() {
 
         </p>
       </div>
+      </Container>
       <section></section>
       <div className='courses'>
         <h2>Courses</h2>
@@ -130,6 +132,7 @@ function Explore() {
       </div>
 
       <section></section>
+      <Container>
       <div className='S'>
         <div className='sline Slinev'></div>
         <div className='num'>2</div>
@@ -137,17 +140,19 @@ function Explore() {
         <p>Work on our Real-time Projects , Task Based</p>
 
       </div>
+      </Container>
+
       <section></section>
       <div className='build'>
-          <Container>
-            <Row className='build-row'>
-              
-              <Col md={6}>
-                <div className='build-img'>
-                  <img src={images.PP} alt="" />
-                </div>
-              </Col>
-              <Col md={6}>
+        <Container>
+          <Row className='build-row'>
+
+            <Col md={6}>
+              <div className='build-img'>
+                <img src={images.PP} alt="" />
+              </div>
+            </Col>
+            <Col md={6}>
               <div className='build-content'>
                 <div className="icon">              <span className='cdeatils-icon'><WebIcon></WebIcon></span>
                 </div>
@@ -157,32 +162,33 @@ function Explore() {
                   <Redbutton />
                 </div>
               </div>
-              </Col>
-              <span></span>
-            </Row>
-            <Row className='build-row'>
-              
-              <Col md={6}>
-                <div className='build-img'>
-                  <img src={images.CRM} alt="" />
-                </div>
-              </Col>
-              <Col md={6}>
-              <div className='build-content'>
-              <div className="icon">              <span className='cdeatils-icon'><WebIcon></WebIcon></span>
+            </Col>
+            <span></span>
+          </Row>
+          <Row className='build-row'>
+
+            <Col md={6}>
+              <div className='build-img'>
+                <img src={images.CRM} alt="" />
               </div>
+            </Col>
+            <Col md={6}>
+              <div className='build-content'>
+                <div className="icon">              <span className='cdeatils-icon'><WebIcon></WebIcon></span>
+                </div>
                 <h4>CRM</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel numquam aut. Autem at ullam dolore quidem praesentium aliquam molestias magnam. Eum sed optio minus, commodi porro possimus voluptates aliquam.</p>
                 <div className='build-button'>
                   <Redbutton />
                 </div>
               </div>
-              </Col>
-              <span></span>
-            </Row>
-          </Container>
+            </Col>
+            <span></span>
+          </Row>
+        </Container>
       </div>
       <section></section>
+      <Container>
       <div className='S'>
         <div className='sline Slinev'></div>
         <div className='num'>3</div>
@@ -190,6 +196,8 @@ function Explore() {
         <p>Internships and Course certifications for Enhanced Skill Validation.</p>
 
       </div>
+      </Container>
+
       {/* <div className='certificate'>
         <Container>
           <Row>
@@ -199,6 +207,7 @@ function Explore() {
         </Container>
       </div> */}
       <section></section>
+      <Container>
       <div className='S'>
         <div className='sline Slinev'></div>
         <div className='num'>4</div>
@@ -206,63 +215,65 @@ function Explore() {
         <p>Our focus on job-readiness Github Profile, Linkedin Profile, Resume Prep and Help Apply</p>
 
       </div>
+      </Container>
+
       <div className="getjob">
         <Container>
-        <Row >
-          <Col md={6}>
-            <Row className='job-row'>
-            <Col>
-              <div className='build-content'>
-              <div className="icon">              <span className='cdeatils-icon'><LinkedInIcon></LinkedInIcon></span>
-              </div>                <h4>LinkedIn Profile
-                </h4>
-                <p>Assistance in crafting a compelling LinkedIn profile for networking and visibility among recruiters.</p>
-              </div>
-              </Col>
-            </Row>
-            <Row className='job-row'>
-            <Col>
-              <div className='build-content'>
-              <div className="icon">              <span className='cdeatils-icon'><GitHubIcon></GitHubIcon></span>
-              </div>
-                <h4>GitHub Profile
-                </h4>
-                <p>Guidance on creating and maintaining a professional GitHub profile to showcase technical projects and coding prowess.</p>
-              </div>
-              </Col>
-            </Row>
-            <Row className='job-row'>
-            <Col>
-              <div className='build-content'>
-              <div className="icon">              <span className='cdeatils-icon'><ArticleOutlinedIcon></ArticleOutlinedIcon></span>
-              </div>
-                <h4>Resume Preparation
-                </h4>
-                <p>Expert advice on resume writing to effectively highlight skills, experience, and achievements.</p>
+          <Row >
+            <Col md={6}>
+              <Row className='job-row'>
+                <Col>
+                  <div className='build-content'>
+                    <div className="icon">              <span className='cdeatils-icon'><LinkedInIcon></LinkedInIcon></span>
+                    </div>                <h4>LinkedIn Profile
+                    </h4>
+                    <p>Assistance in crafting a compelling LinkedIn profile for networking and visibility among recruiters.</p>
+                  </div>
+                </Col>
+              </Row>
+              <Row className='job-row'>
+                <Col>
+                  <div className='build-content'>
+                    <div className="icon"><span className='cdeatils-icon'><GitHubIcon></GitHubIcon></span>
+                    </div>
+                    <h4>GitHub Profile
+                    </h4>
+                    <p>Guidance on creating and maintaining a professional GitHub profile to showcase technical projects and coding prowess.</p>
+                  </div>
+                </Col>
+              </Row>
+              <Row className='job-row'>
+                <Col>
+                  <div className='build-content'>
+                    <div className="icon">              <span className='cdeatils-icon'><ArticleOutlinedIcon></ArticleOutlinedIcon></span>
+                    </div>
+                    <h4>Resume Preparation
+                    </h4>
+                    <p>Expert advice on resume writing to effectively highlight skills, experience, and achievements.</p>
 
-              </div>
-              </Col>
-            </Row>
-            <Row className='job-row'>
-            <Col>
-              <div className='build-content'>
-              <div className="icon">              <span className='cdeatils-icon'><WorkIcon></WorkIcon></span>
-              </div>
-                <h4>Help in Applying
-                </h4>
-                <p>Support in identifying suitable job opportunities and navigating the application process.  </p>
-              </div>
-              </Col>
-            </Row>
-          </Col>
-          <Col md={6}>
-          <img src={images.linking} alt="" width="100%"/>
-          </Col>
-        </Row>
+                  </div>
+                </Col>
+              </Row>
+              <Row className='job-row'>
+                <Col>
+                  <div className='build-content'>
+                    <div className="icon">              <span className='cdeatils-icon'><WorkIcon></WorkIcon></span>
+                    </div>
+                    <h4>Help in Applying
+                    </h4>
+                    <p>Support in identifying suitable job opportunities and navigating the application process.  </p>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+            <Col md={6}>
+              <img src={images.linking} alt="" width="100%" />
+            </Col>
+          </Row>
         </Container>
-        
+
       </div>
-      
+
     </div>
   )
 }

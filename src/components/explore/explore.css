@@ -138,7 +138,10 @@ h5{
         grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     }
     .build-row::after{
-        left: 12px;
+        display: none;
+    }
+    .build-content::after{
+        display: none;
     }
 
 }
